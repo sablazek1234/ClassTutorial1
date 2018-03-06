@@ -26,7 +26,7 @@ namespace Version_1_C
             string[] lcDisplayList = new string[theArtistList.Count];
 
             lstArtists.DataSource = null;
-            // this is my code
+            // This is my code
             theArtistList.Keys.CopyTo(lcDisplayList, 0);
             lstArtists.DataSource = lcDisplayList;
             lblValue.Text = Convert.ToString(theArtistList.GetTotalValue());
